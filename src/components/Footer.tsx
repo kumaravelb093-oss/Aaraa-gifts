@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                     marginBottom: '3rem'
                 }}>
                     <div>
-                        <h3 style={{ color: 'var(--accent-gold)', marginBottom: '1.5rem' }}>Aara Gifts</h3>
+                        <img src="/src/assets/logo.png" alt="Aara Gifts" style={{ height: '60px', marginBottom: '1rem', objectFit: 'contain' }} />
                         <p style={{ opacity: 0.8 }}>
                             Premium gifting solutions for corporate events, weddings, and personal celebrations. Delivering joy through curated excellence.
                         </p>

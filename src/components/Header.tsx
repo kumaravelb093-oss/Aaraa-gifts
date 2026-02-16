@@ -5,8 +5,8 @@ const Header: React.FC = () => {
     <header style={{ borderBottom: '2px solid var(--accent-gold)', backgroundColor: 'var(--white)' }}>
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1rem' }}>
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
-          <div style={{ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'var(--font-heading)' }}>
-            Aara Gifts
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <img src="/src/assets/logo.png" alt="Aara Gifts Logo" style={{ height: '50px', objectFit: 'contain' }} />
           </div>
           <nav style={{ display: 'flex', gap: '1.5rem' }}>
             <a href="#" style={{ fontWeight: 500 }}>Home</a>
@@ -15,12 +15,12 @@ const Header: React.FC = () => {
             <a href="#" style={{ fontWeight: 500 }}>About Us</a>
           </nav>
         </div>
-        
+
         <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
           <div style={{ position: 'relative' }}>
-            <input 
-              type="text" 
-              placeholder="Search gifts..." 
+            <input
+              type="text"
+              placeholder="Search gifts..."
               style={{
                 padding: '0.5rem 1rem',
                 border: '1px solid var(--accent-gold)',
